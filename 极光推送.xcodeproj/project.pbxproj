@@ -27,12 +27,12 @@
 		D05A0323206A1DCF007EC2BB /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0322206A1DCF007EC2BB /* UserNotifications.framework */; };
 		D05A0325206A1DE1007EC2BB /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0324206A1DE1007EC2BB /* libresolv.tbd */; };
 		D05A032D206CBC67007EC2BB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A032C206CBC67007EC2BB /* CoreLocation.framework */; };
-		D05A0334206CD598007EC2BB /* jpush-ios-3.0.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A032F206CD598007EC2BB /* jpush-ios-3.0.8.a */; };
-		D05A0335206CD598007EC2BB /* jcore-ios-1.1.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0332206CD598007EC2BB /* jcore-ios-1.1.8.a */; };
-		D05A0336206CD598007EC2BB /* jpush-extension-ios-1.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0333206CD598007EC2BB /* jpush-extension-ios-1.1.0.a */; };
-		D05A033B206CD5A5007EC2BB /* jshare-ios-1.5.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0338206CD5A5007EC2BB /* jshare-ios-1.5.0.a */; };
-		D05A033C206CD5A5007EC2BB /* jcore-ios-1.1.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0339206CD5A5007EC2BB /* jcore-ios-1.1.8.a */; };
 		D05A033E206CD6F0007EC2BB /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A033D206CD6F0007EC2BB /* AdSupport.framework */; };
+		D05A0345206CDD22007EC2BB /* jpush-ios-3.0.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0340206CDD22007EC2BB /* jpush-ios-3.0.8.a */; };
+		D05A0346206CDD22007EC2BB /* jcore-ios-1.1.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0343206CDD22007EC2BB /* jcore-ios-1.1.8.a */; };
+		D05A0347206CDD22007EC2BB /* jpush-extension-ios-1.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0344206CDD22007EC2BB /* jpush-extension-ios-1.1.0.a */; };
+		D05A034C206CDD2D007EC2BB /* jshare-ios-1.5.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0349206CDD2D007EC2BB /* jshare-ios-1.5.0.a */; };
+		D05A034D206CDD2D007EC2BB /* jcore-ios-1.1.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A034A206CDD2D007EC2BB /* jcore-ios-1.1.8.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,15 +82,15 @@
 		D05A0322206A1DCF007EC2BB /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		D05A0324206A1DE1007EC2BB /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		D05A032C206CBC67007EC2BB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		D05A032F206CD598007EC2BB /* jpush-ios-3.0.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.0.8.a"; sourceTree = "<group>"; };
-		D05A0330206CD598007EC2BB /* JPushNotificationExtensionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPushNotificationExtensionService.h; sourceTree = "<group>"; };
-		D05A0331206CD598007EC2BB /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
-		D05A0332206CD598007EC2BB /* jcore-ios-1.1.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.8.a"; sourceTree = "<group>"; };
-		D05A0333206CD598007EC2BB /* jpush-extension-ios-1.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-extension-ios-1.1.0.a"; sourceTree = "<group>"; };
-		D05A0338206CD5A5007EC2BB /* jshare-ios-1.5.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jshare-ios-1.5.0.a"; sourceTree = "<group>"; };
-		D05A0339206CD5A5007EC2BB /* jcore-ios-1.1.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.8.a"; sourceTree = "<group>"; };
-		D05A033A206CD5A5007EC2BB /* JSHAREService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSHAREService.h; sourceTree = "<group>"; };
 		D05A033D206CD6F0007EC2BB /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		D05A0340206CDD22007EC2BB /* jpush-ios-3.0.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.0.8.a"; sourceTree = "<group>"; };
+		D05A0341206CDD22007EC2BB /* JPushNotificationExtensionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPushNotificationExtensionService.h; sourceTree = "<group>"; };
+		D05A0342206CDD22007EC2BB /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		D05A0343206CDD22007EC2BB /* jcore-ios-1.1.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.8.a"; sourceTree = "<group>"; };
+		D05A0344206CDD22007EC2BB /* jpush-extension-ios-1.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-extension-ios-1.1.0.a"; sourceTree = "<group>"; };
+		D05A0349206CDD2D007EC2BB /* jshare-ios-1.5.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jshare-ios-1.5.0.a"; sourceTree = "<group>"; };
+		D05A034A206CDD2D007EC2BB /* jcore-ios-1.1.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.8.a"; sourceTree = "<group>"; };
+		D05A034B206CDD2D007EC2BB /* JSHAREService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSHAREService.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,22 +99,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				D05A033E206CD6F0007EC2BB /* AdSupport.framework in Frameworks */,
-				D05A0336206CD598007EC2BB /* jpush-extension-ios-1.1.0.a in Frameworks */,
-				D05A0335206CD598007EC2BB /* jcore-ios-1.1.8.a in Frameworks */,
+				D05A0347206CDD22007EC2BB /* jpush-extension-ios-1.1.0.a in Frameworks */,
 				D05A032D206CBC67007EC2BB /* CoreLocation.framework in Frameworks */,
-				D05A0334206CD598007EC2BB /* jpush-ios-3.0.8.a in Frameworks */,
 				D05A0325206A1DE1007EC2BB /* libresolv.tbd in Frameworks */,
-				D05A033B206CD5A5007EC2BB /* jshare-ios-1.5.0.a in Frameworks */,
 				D05A0323206A1DCF007EC2BB /* UserNotifications.framework in Frameworks */,
+				D05A0346206CDD22007EC2BB /* jcore-ios-1.1.8.a in Frameworks */,
 				D05A0321206A1DBC007EC2BB /* libz.tbd in Frameworks */,
 				D05A031F206A1DAA007EC2BB /* Security.framework in Frameworks */,
+				D05A034C206CDD2D007EC2BB /* jshare-ios-1.5.0.a in Frameworks */,
 				D05A031D206A1D7C007EC2BB /* UIKit.framework in Frameworks */,
+				D05A034D206CDD2D007EC2BB /* jcore-ios-1.1.8.a in Frameworks */,
 				D05A031B206A1D6F007EC2BB /* Foundation.framework in Frameworks */,
 				D05A0319206A1D60007EC2BB /* CoreGraphics.framework in Frameworks */,
 				D05A0317206A1D50007EC2BB /* SystemConfiguration.framework in Frameworks */,
-				D05A033C206CD5A5007EC2BB /* jcore-ios-1.1.8.a in Frameworks */,
 				D05A0315206A1D41007EC2BB /* CoreTelephony.framework in Frameworks */,
 				D05A0313206A1D32007EC2BB /* CoreFoundation.framework in Frameworks */,
+				D05A0345206CDD22007EC2BB /* jpush-ios-3.0.8.a in Frameworks */,
 				D05A0311206A1D24007EC2BB /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,8 +160,8 @@
 		D05A02D0206A0175007EC2BB /* 极光推送 */ = {
 			isa = PBXGroup;
 			children = (
-				D05A0337206CD5A5007EC2BB /* ShairLib */,
-				D05A032E206CD598007EC2BB /* PushLib */,
+				D05A0348206CDD2D007EC2BB /* ShairLib */,
+				D05A033F206CDD22007EC2BB /* PushLib */,
 				D05A030C206A18EE007EC2BB /* 极光推送.entitlements */,
 				D05A02D1206A0175007EC2BB /* AppDelegate.h */,
 				D05A02D2206A0175007EC2BB /* AppDelegate.m */,
@@ -214,28 +214,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D05A032E206CD598007EC2BB /* PushLib */ = {
+		D05A033F206CDD22007EC2BB /* PushLib */ = {
 			isa = PBXGroup;
 			children = (
-				D05A032F206CD598007EC2BB /* jpush-ios-3.0.8.a */,
-				D05A0330206CD598007EC2BB /* JPushNotificationExtensionService.h */,
-				D05A0331206CD598007EC2BB /* JPUSHService.h */,
-				D05A0332206CD598007EC2BB /* jcore-ios-1.1.8.a */,
-				D05A0333206CD598007EC2BB /* jpush-extension-ios-1.1.0.a */,
+				D05A0340206CDD22007EC2BB /* jpush-ios-3.0.8.a */,
+				D05A0341206CDD22007EC2BB /* JPushNotificationExtensionService.h */,
+				D05A0342206CDD22007EC2BB /* JPUSHService.h */,
+				D05A0343206CDD22007EC2BB /* jcore-ios-1.1.8.a */,
+				D05A0344206CDD22007EC2BB /* jpush-extension-ios-1.1.0.a */,
 			);
 			name = PushLib;
-			path = "../../../框架/jpush-ios-3.0.8-release/PushLib";
+			path = "../../框架/jpush-ios-3.0.8-release/PushLib";
 			sourceTree = "<group>";
 		};
-		D05A0337206CD5A5007EC2BB /* ShairLib */ = {
+		D05A0348206CDD2D007EC2BB /* ShairLib */ = {
 			isa = PBXGroup;
 			children = (
-				D05A0338206CD5A5007EC2BB /* jshare-ios-1.5.0.a */,
-				D05A0339206CD5A5007EC2BB /* jcore-ios-1.1.8.a */,
-				D05A033A206CD5A5007EC2BB /* JSHAREService.h */,
+				D05A0349206CDD2D007EC2BB /* jshare-ios-1.5.0.a */,
+				D05A034A206CDD2D007EC2BB /* jcore-ios-1.1.8.a */,
+				D05A034B206CDD2D007EC2BB /* JSHAREService.h */,
 			);
 			name = ShairLib;
-			path = "../../../框架/jshare-ios-1.5.0-release/ShairLib";
+			path = "../../框架/jshare-ios-1.5.0-release/ShairLib";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

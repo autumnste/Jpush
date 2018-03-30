@@ -28,11 +28,17 @@
 		D05A0325206A1DE1007EC2BB /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0324206A1DE1007EC2BB /* libresolv.tbd */; };
 		D05A032D206CBC67007EC2BB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A032C206CBC67007EC2BB /* CoreLocation.framework */; };
 		D05A033E206CD6F0007EC2BB /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A033D206CD6F0007EC2BB /* AdSupport.framework */; };
-		D05A0345206CDD22007EC2BB /* jpush-ios-3.0.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0340206CDD22007EC2BB /* jpush-ios-3.0.8.a */; };
 		D05A0346206CDD22007EC2BB /* jcore-ios-1.1.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0343206CDD22007EC2BB /* jcore-ios-1.1.8.a */; };
-		D05A0347206CDD22007EC2BB /* jpush-extension-ios-1.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0344206CDD22007EC2BB /* jpush-extension-ios-1.1.0.a */; };
 		D05A034C206CDD2D007EC2BB /* jshare-ios-1.5.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0349206CDD2D007EC2BB /* jshare-ios-1.5.0.a */; };
-		D05A034D206CDD2D007EC2BB /* jcore-ios-1.1.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A034A206CDD2D007EC2BB /* jcore-ios-1.1.8.a */; };
+		D05A0356206E0920007EC2BB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0355206E0920007EC2BB /* QuartzCore.framework */; };
+		D05A0358206E092B007EC2BB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0357206E092B007EC2BB /* ImageIO.framework */; };
+		D05A035A206E093F007EC2BB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0359206E093F007EC2BB /* CoreText.framework */; };
+		D05A0364206E1D7B007EC2BB /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0362206E1D58007EC2BB /* libz.1.dylib */; };
+		D05A0368206E1E2C007EC2BB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0367206E1E2C007EC2BB /* libsqlite3.dylib */; };
+		D05A036A206E2507007EC2BB /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0369206E2507007EC2BB /* Photos.framework */; };
+		D05A0372206E3465007EC2BB /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D05A036E206E3465007EC2BB /* WeiboSDK.bundle */; };
+		D05A0373206E3465007EC2BB /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A036F206E3465007EC2BB /* libWeiboSDK.a */; };
+		D05A0375206E404C007EC2BB /* jpush-ios-3.0.8 copy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D05A0374206E404B007EC2BB /* jpush-ios-3.0.8 copy.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,14 +89,24 @@
 		D05A0324206A1DE1007EC2BB /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		D05A032C206CBC67007EC2BB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		D05A033D206CD6F0007EC2BB /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		D05A0340206CDD22007EC2BB /* jpush-ios-3.0.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.0.8.a"; sourceTree = "<group>"; };
 		D05A0341206CDD22007EC2BB /* JPushNotificationExtensionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPushNotificationExtensionService.h; sourceTree = "<group>"; };
 		D05A0342206CDD22007EC2BB /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
 		D05A0343206CDD22007EC2BB /* jcore-ios-1.1.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.8.a"; sourceTree = "<group>"; };
-		D05A0344206CDD22007EC2BB /* jpush-extension-ios-1.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-extension-ios-1.1.0.a"; sourceTree = "<group>"; };
 		D05A0349206CDD2D007EC2BB /* jshare-ios-1.5.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jshare-ios-1.5.0.a"; sourceTree = "<group>"; };
-		D05A034A206CDD2D007EC2BB /* jcore-ios-1.1.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.8.a"; sourceTree = "<group>"; };
 		D05A034B206CDD2D007EC2BB /* JSHAREService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSHAREService.h; sourceTree = "<group>"; };
+		D05A0355206E0920007EC2BB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D05A0357206E092B007EC2BB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		D05A0359206E093F007EC2BB /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		D05A035B206E0968007EC2BB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D05A0362206E1D58007EC2BB /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		D05A0365206E1DC9007EC2BB /* libtclsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtclsqlite3.dylib; path = ../../../../System/Library/Tcl/sqlite3/libtclsqlite3.dylib; sourceTree = "<group>"; };
+		D05A0367206E1E2C007EC2BB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		D05A0369206E2507007EC2BB /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		D05A036E206E3465007EC2BB /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
+		D05A036F206E3465007EC2BB /* libWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeiboSDK.a; sourceTree = "<group>"; };
+		D05A0370206E3465007EC2BB /* WBHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBHttpRequest.h; sourceTree = "<group>"; };
+		D05A0371206E3465007EC2BB /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
+		D05A0374206E404B007EC2BB /* jpush-ios-3.0.8 copy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.0.8 copy.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,23 +114,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05A036A206E2507007EC2BB /* Photos.framework in Frameworks */,
+				D05A0368206E1E2C007EC2BB /* libsqlite3.dylib in Frameworks */,
+				D05A0364206E1D7B007EC2BB /* libz.1.dylib in Frameworks */,
+				D05A035A206E093F007EC2BB /* CoreText.framework in Frameworks */,
+				D05A0358206E092B007EC2BB /* ImageIO.framework in Frameworks */,
+				D05A0356206E0920007EC2BB /* QuartzCore.framework in Frameworks */,
 				D05A033E206CD6F0007EC2BB /* AdSupport.framework in Frameworks */,
-				D05A0347206CDD22007EC2BB /* jpush-extension-ios-1.1.0.a in Frameworks */,
 				D05A032D206CBC67007EC2BB /* CoreLocation.framework in Frameworks */,
 				D05A0325206A1DE1007EC2BB /* libresolv.tbd in Frameworks */,
+				D05A0373206E3465007EC2BB /* libWeiboSDK.a in Frameworks */,
 				D05A0323206A1DCF007EC2BB /* UserNotifications.framework in Frameworks */,
 				D05A0346206CDD22007EC2BB /* jcore-ios-1.1.8.a in Frameworks */,
 				D05A0321206A1DBC007EC2BB /* libz.tbd in Frameworks */,
 				D05A031F206A1DAA007EC2BB /* Security.framework in Frameworks */,
+				D05A0375206E404C007EC2BB /* jpush-ios-3.0.8 copy.a in Frameworks */,
 				D05A034C206CDD2D007EC2BB /* jshare-ios-1.5.0.a in Frameworks */,
 				D05A031D206A1D7C007EC2BB /* UIKit.framework in Frameworks */,
-				D05A034D206CDD2D007EC2BB /* jcore-ios-1.1.8.a in Frameworks */,
 				D05A031B206A1D6F007EC2BB /* Foundation.framework in Frameworks */,
 				D05A0319206A1D60007EC2BB /* CoreGraphics.framework in Frameworks */,
 				D05A0317206A1D50007EC2BB /* SystemConfiguration.framework in Frameworks */,
 				D05A0315206A1D41007EC2BB /* CoreTelephony.framework in Frameworks */,
 				D05A0313206A1D32007EC2BB /* CoreFoundation.framework in Frameworks */,
-				D05A0345206CDD22007EC2BB /* jpush-ios-3.0.8.a in Frameworks */,
 				D05A0311206A1D24007EC2BB /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,6 +181,7 @@
 		D05A02D0206A0175007EC2BB /* 极光推送 */ = {
 			isa = PBXGroup;
 			children = (
+				D05A036D206E3465007EC2BB /* libWeiboSDK */,
 				D05A0348206CDD2D007EC2BB /* ShairLib */,
 				D05A033F206CDD22007EC2BB /* PushLib */,
 				D05A030C206A18EE007EC2BB /* 极光推送.entitlements */,
@@ -197,6 +219,14 @@
 		D05A030F206A1D24007EC2BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D05A0369206E2507007EC2BB /* Photos.framework */,
+				D05A0367206E1E2C007EC2BB /* libsqlite3.dylib */,
+				D05A0365206E1DC9007EC2BB /* libtclsqlite3.dylib */,
+				D05A0362206E1D58007EC2BB /* libz.1.dylib */,
+				D05A035B206E0968007EC2BB /* libsqlite3.tbd */,
+				D05A0359206E093F007EC2BB /* CoreText.framework */,
+				D05A0357206E092B007EC2BB /* ImageIO.framework */,
+				D05A0355206E0920007EC2BB /* QuartzCore.framework */,
 				D05A033D206CD6F0007EC2BB /* AdSupport.framework */,
 				D05A032C206CBC67007EC2BB /* CoreLocation.framework */,
 				D05A0324206A1DE1007EC2BB /* libresolv.tbd */,
@@ -217,11 +247,10 @@
 		D05A033F206CDD22007EC2BB /* PushLib */ = {
 			isa = PBXGroup;
 			children = (
-				D05A0340206CDD22007EC2BB /* jpush-ios-3.0.8.a */,
+				D05A0374206E404B007EC2BB /* jpush-ios-3.0.8 copy.a */,
 				D05A0341206CDD22007EC2BB /* JPushNotificationExtensionService.h */,
 				D05A0342206CDD22007EC2BB /* JPUSHService.h */,
 				D05A0343206CDD22007EC2BB /* jcore-ios-1.1.8.a */,
-				D05A0344206CDD22007EC2BB /* jpush-extension-ios-1.1.0.a */,
 			);
 			name = PushLib;
 			path = "../../框架/jpush-ios-3.0.8-release/PushLib";
@@ -231,11 +260,22 @@
 			isa = PBXGroup;
 			children = (
 				D05A0349206CDD2D007EC2BB /* jshare-ios-1.5.0.a */,
-				D05A034A206CDD2D007EC2BB /* jcore-ios-1.1.8.a */,
 				D05A034B206CDD2D007EC2BB /* JSHAREService.h */,
 			);
 			name = ShairLib;
 			path = "../../框架/jshare-ios-1.5.0-release/ShairLib";
+			sourceTree = "<group>";
+		};
+		D05A036D206E3465007EC2BB /* libWeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D05A036E206E3465007EC2BB /* WeiboSDK.bundle */,
+				D05A036F206E3465007EC2BB /* libWeiboSDK.a */,
+				D05A0370206E3465007EC2BB /* WBHttpRequest.h */,
+				D05A0371206E3465007EC2BB /* WeiboSDK.h */,
+			);
+			name = libWeiboSDK;
+			path = "../../框架/weibo_ios_sdk/libWeiboSDK";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,6 +394,7 @@
 			files = (
 				D05A02DE206A0176007EC2BB /* LaunchScreen.storyboard in Resources */,
 				D05A02DB206A0176007EC2BB /* Assets.xcassets in Resources */,
+				D05A0372206E3465007EC2BB /* WeiboSDK.bundle in Resources */,
 				D05A02D9206A0176007EC2BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -547,10 +588,17 @@
 				CODE_SIGN_ENTITLEMENTS = "极光推送/极光推送.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7SN845YAF5;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "极光推送/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/极光推送/libWeiboSDK",
+					"$(SYSTEM_LIBRARY_DIR)/Tcl/sqlite3",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = push.com.wangxinjia.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -564,10 +612,17 @@
 				CODE_SIGN_ENTITLEMENTS = "极光推送/极光推送.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7SN845YAF5;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "极光推送/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/极光推送/libWeiboSDK",
+					"$(SYSTEM_LIBRARY_DIR)/Tcl/sqlite3",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = push.com.wangxinjia.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

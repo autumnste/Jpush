@@ -9,11 +9,15 @@
 #import "AppDelegate.h"
 #import "JPUSHService.h"
 #import "JSHAREService.h"
+#import "WeiboSDK.h"
 #ifdef NSFoundationVersionNumber_iOS_9_x_Max
 #import <UserNotifications/UserNotifications.h>
 #endif
+#define weiboAppKey @"565479340"
+#define weiboSecret @"d2ec1c2d0aebf9e2205453dd4e9f3407"
+#define weiboRedirectUri @"http://blog.sina.com.cn/s/blog_778593d90102y3ue.html"
 
-@interface AppDelegate ()<JPUSHRegisterDelegate>
+@interface AppDelegate ()<JPUSHRegisterDelegate,UIApplicationDelegate,WeiboSDKDelegate>
 
 @end
 
@@ -42,9 +46,9 @@
     
     JSHARELaunchConfig *config = [[JSHARELaunchConfig alloc] init];
     config.appKey = @"24038cd7e92c115ac99af72a";
-    config.SinaWeiboAppKey = @"565479340";
-    config.SinaWeiboAppSecret = @"d2ec1c2d0aebf9e2205453dd4e9f3407";
-    config.SinaRedirectUri = @"http://blog.sina.com.cn/s/blog_778593d90102y3ue.html";
+    config.SinaWeiboAppKey = weiboAppKey;
+    config.SinaWeiboAppSecret = weiboSecret;
+    config.SinaRedirectUri = weiboRedirectUri;
     config.QQAppId = @"1105864531";
     config.QQAppKey = @"glFYjkHQGSOCJHMC";
     config.WeChatAppId = @"wxa2ea563906227379";
@@ -56,6 +60,8 @@
     config.isSupportWebSina = YES;
     [JSHAREService setupWithConfig:config];
     [JSHAREService setDebug:YES];
+    [WeiboSDK enableDebugMode:YES];
+    [WeiboSDK registerApp:weiboAppKey];
     return YES;
 }
 - (void)application:(UIApplication *)application
@@ -141,6 +147,33 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url{
     [JSHAREService handleOpenUrl:url];
-    return YES;
+    return [WeiboSDK handleOpenURL:url delegate:self];
 }
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
+    return [WeiboSDK handleOpenURL:url delegate:self];
+}
+- (void)didReceiveWeiboRequest:(WBBaseRequest *)request {
+    
+}
+
+- (void)didReceiveWeiboResponse:(WBBaseResponse *)response {
+    
+    if ([response isKindOfClass:WBAuthorizeResponse.class])
+    {
+        NSString *userId = [(WBAuthorizeResponse *)response userID];
+        NSString *accessToken = [(WBAuthorizeResponse *)response accessToken];
+
+        NSLog(@"userId %@",userId);
+        NSLog(@"accessToken %@",accessToken);
+
+        NSDictionary *notification = @{
+                                       @"userId" : userId,
+                                       @"accessToken" : accessToken
+                                       };
+
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"weiboDidLoginNotification"
+                                                            object:self userInfo:notification];
+   }
+}
+
 @end

@@ -27,12 +27,20 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Njn-88-cgh">
-                                <rect key="frame" x="147" y="118" width="87" height="30"/>
+                                <rect key="frame" x="147" y="283" width="87" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="微博登录"/>
                                 <connections>
                                     <action selector="btn_login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dKJ-zl-9gU"/>
                                     <action selector="btn_shair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8TP-Uk-rRN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zeQ-d5-Jbj">
+                                <rect key="frame" x="147" y="117" width="87" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="微信分享"/>
+                                <connections>
+                                    <action selector="btn_WxShair:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FyR-LC-vRl"/>
                                 </connections>
                             </button>
                         </subviews>

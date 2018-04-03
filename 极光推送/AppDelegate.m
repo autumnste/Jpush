@@ -15,7 +15,7 @@
 #endif
 #define weiboAppKey @"565479340"
 #define weiboSecret @"d2ec1c2d0aebf9e2205453dd4e9f3407"
-#define weiboRedirectUri @"http://blog.sina.com.cn/s/blog_778593d90102y3ue.html"
+#define weiboRedirectUri @"https://api.weibo.com/oauth2/default.html"
 
 @interface AppDelegate ()<JPUSHRegisterDelegate,UIApplicationDelegate,WeiboSDKDelegate>
 
@@ -51,8 +51,8 @@
     config.SinaRedirectUri = weiboRedirectUri;
     config.QQAppId = @"1105864531";
     config.QQAppKey = @"glFYjkHQGSOCJHMC";
-    config.WeChatAppId = @"wxa2ea563906227379";
-    config.WeChatAppSecret = @"bb63c0a06bf0ee7f633a5bc44304d110";
+    config.WeChatAppId = @"wx5817b71e08409c13";
+    config.WeChatAppSecret = @"bc91350db58b137e3df2db24132d87eb";
     config.FacebookAppID = @"1847959632183996";
     config.FacebookDisplayName = @"JShareDemo";
     config.TwitterConsumerKey = @"4hCeIip1cpTk9oPYeCbYKhVWi";

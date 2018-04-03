@@ -12,6 +12,7 @@
 @interface ViewController ()
 - (IBAction)btn_shair:(id)sender;
 - (IBAction)btn_login:(id)sender;
+- (IBAction)btn_WxShair:(id)sender;
 
 @end
 
@@ -43,12 +44,23 @@
 
 - (IBAction)btn_login:(id)sender {
     WBAuthorizeRequest *request = [WBAuthorizeRequest request];
-    request.redirectURI = @"http://blog.sina.com.cn/s/blog_778593d90102y3ue.html";
+    request.redirectURI = @"https://api.weibo.com/oauth2/default.html";
     request.scope = @"all";
-    request.userInfo = @{@"SSO_From": @"SendMessageToWeiboViewController",
+    request.userInfo = @{@"SSO_From": @"ViewController",
                          @"Other_Info_1": [NSNumber numberWithInt:123],
                          @"Other_Info_2": @[@"obj1", @"obj2"],
                          @"Other_Info_3": @{@"key1": @"obj1", @"key2": @"obj2"}};
     [WeiboSDK sendRequest:request];
+}
+
+- (IBAction)btn_WxShair:(id)sender {
+    JSHAREMessage *message = [JSHAREMessage message];
+    message.text = @"JShare分享";
+    message.platform = JSHAREPlatformWechatSession;
+    message.mediaType = JSHAREText;
+    [JSHAREService share:message handler:^(JSHAREState state, NSError *error) {
+        NSLog(@"分享回调");
+    }
+     ];
 }
 @end
